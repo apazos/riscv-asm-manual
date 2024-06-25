@@ -1,0 +1,34 @@
+// These variables need customization for the specification version and date
+:description: RISC-V Assembly Programmer's Manual
+:revdate:  June 25, 2024
+:revnumber: 0
+:revremark: This document is in Development state. Change should be expected.
+
+// These variables should not require customization
+:company: RISC-V
+:url-riscv: http://riscv.org
+:doctype: book
+:preface-title: Preamble
+:colophon:
+:appendix-caption: Appendix
+:imagesdir: ../docs-resources/images
+:title-logo-image: image:risc-v_logo.svg[pdfwidth=3.25in,align=center]
+:experimental:
+:reproducible:
+:WaveDromEditorApp: wavedrom-cli
+:icons: font
+:lang: en
+:listing-caption: Listing
+:sectnums:
+:sectnumlevels: 5
+:toclevels: 5
+:toc: left
+:source-highlighter: pygments
+ifdef::backend-pdf[]
+:source-highlighter: coderay
+endif::[]
+:data-uri:
+:hide-uri-scheme:
+:stem: latexmath
+:footnote:
+:xrefstyle: short
