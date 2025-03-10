@@ -1,7 +1,13 @@
 == Command-Line Arguments
 
-I think it's probably better to beef up the binutils documentation rather than
-duplicating it here.
+This manual covers the standard RISC-V assembly language, supported by
+open-source assemblers like GNU as and LLVM’s assembler, whose common options are
+well-described in the binutils documentation. For more details on
+https://sourceware.org/binutils/docs/as.html#Overview[generic assembler command line options]
+and
+https://sourceware.org/binutils/docs/as.html#RISC_002dV_002dDependent[RISC-V-specific options],
+please refer to the binutils user guide.
+Enhancing the binutils documentation is more effective than duplicating it here.
 
 == Registers
 
